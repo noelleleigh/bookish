@@ -5,6 +5,7 @@
   "description": "Some sort of blog thing",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/noelleleigh/bookish#readme",
   "dependencies": {
+    "@koa/router": "^9.0.1",
     "koa": "^2.12.0"
   }
 }
